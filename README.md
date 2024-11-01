@@ -2,8 +2,6 @@
 This is an example code how to communicate with the AWS S3 
 
 # How to
-
-
 ## AWS configurations
 .aws/config
 ````shell
@@ -18,9 +16,9 @@ output = json
 aws_access_key_id =
 aws_secret_access_key =
 ```
-
-## Install dependencies
+## Install python dependencies
 ```shell
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 ```
